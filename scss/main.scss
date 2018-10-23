@@ -1,3 +1,4 @@
+@import 'normalize';
 @import 'base';
 
 .top-menu {
@@ -211,6 +212,8 @@ ol {
 
 .new-grids {
   margin-top: 3em;
+  height: auto;
+  overflow: hidden;
 }
 
 .new-left {
@@ -247,6 +250,10 @@ ol {
     font-weight: 600;
     letter-spacing: 2px;
   }
+}
+
+p {
+  margin: 0 0 10px;
 }
 
 #infor {
@@ -394,6 +401,11 @@ p {
 }
 
 .table-pictures {
+  clear: both;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+
   ul {
     margin: 0px;
     padding: 0px;
@@ -411,14 +423,19 @@ p {
       }
     }
   }
-
-  clear: both;
-  height: auto;
-  overflow: hidden;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
+  .new-grid-right {
+    clear: both;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .new-left {
+    padding: 2em 2em 2em 2em !important;
+  }
+
   .banner-info {
     width: 80%;
     margin: 5em 0 7em 0;
@@ -454,6 +471,8 @@ p {
   }
 
   .top-menu {
+    float: none;
+
     ul li {
       float: none;
       display: block;
@@ -464,8 +483,6 @@ p {
         margin: auto;
       }
     }
-
-    float: none;
   }
 
   .banner-text h1 {
@@ -512,12 +529,12 @@ p {
 
 @media (max-width: 480px) {
   .banner-info {
+    width: 98%;
+    margin: 3em 0 6em 0;
+
     h3 {
       font-size: 1.8em;
     }
-
-    width: 98%;
-    margin: 3em 0 6em 0;
 
     h5 {
       margin: 1em 0 1em 0;
@@ -615,6 +632,9 @@ p {
   }
 
   .banner-info {
+    width: 100%;
+    margin: 2em 0 3em 0;
+
     h3 {
       font-size: 1.3em;
     }
@@ -626,9 +646,6 @@ p {
     p {
       font-size: 0.8em;
     }
-
-    width: 100%;
-    margin: 2em 0 3em 0;
 
     h5 {
       margin: 0.5em 0;

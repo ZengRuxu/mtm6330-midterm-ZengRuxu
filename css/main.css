@@ -425,13 +425,13 @@ ol {
   padding: 3em 5em 3em 14em; }
   .welcome-left h3 {
     color: #696969;
-    font-family: 'Mandali-Regular';
+    font-family: "Mandali-Regular";
     margin: 0;
     font-size: 2em; }
 
 .about-left h3 {
   color: #696969;
-  font-family: 'Mandali-Regular';
+  font-family: "Mandali-Regular";
   margin: 0;
   font-size: 2em; }
 
@@ -440,7 +440,7 @@ ol {
   color: #888;
   font-size: 1.2em;
   margin: 1em 0;
-  font-family: 'Mandali-Regular'; }
+  font-family: "Mandali-Regular"; }
 
 .welcome-left p,
 .about-left p {
